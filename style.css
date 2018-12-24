@@ -1,0 +1,56 @@
+*{margin:  0 auto;}
+a{color: inherit; text-decoration: none;}
+body {font-family: Arial;}
+
+#header_wrapper { width: 100%; height: 100px;}
+#header_wrapper header { width: 1170px; height: 100px;} 
+#header_wrapper header .logo {width: 100px; height: 100px; float: left;}
+#header_wrapper header .logo img {width: 90px; height: 100px;}
+#header_wrapper header .navbar {width: 400px; height: 100px; float: right; overflow: hidden;}
+#header_wrapper header .navbar nav ul li {display: inline; margin: 15px; line-height: 100px; font-size: 20px;} 
+#header_wrapper header .navbar nav ul li a {border-bottom: 3px solid ;}
+.navbar nav ul li a:hover {border-bottom: 3px solid #8a15af;}
+
+.slider {width: 100%; height: 700px; position: relative; text-align: center; color: white;}
+.slider img {width: 1170px; height: 700px; }
+.centered { width: 1170px; height: 100px; position: absolute; top: 15%; left: 50%; font-size: 80px; transform: translate(-50%, -50%); -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 3px; -webkit-text-stroke-color: white;}
+
+main {width: 1170px; min-height: 700px;}
+
+main .txt {width: 1170px; min-height: 200px;}
+main .txt h2 {text-align: center; margin-top: 40px; font-size: 40px;}
+main .txt h3 {text-align: center; margin-top: 60px; font-size: 25px;}
+
+main .pics {width: 1170px; min-height: 300px; margin-top: 50px;}
+main .pics ul {list-style: none; padding: 0px;}
+main .pics ul li {width: 350px; height: 220px; float: left; margin: 20px;}
+main .pics ul :last-child {margin-right: 0px;}
+main .pics ul li img {width: 350px; height: 220px;}
+
+main .headline {width: 900px; height: 100px; border-top: solid 4px #8a15af; margin-top: 15px;}
+main .headline h2 {font-size: 35px; text-align: center; margin-top: 40px;}
+
+main .gallery {width: 1170px; min-height: 300px; margin-top: 30px;}
+main .gallery ul {list-style: none; padding: 0px;}
+main .gallery ul li {width: 260px; height: 220px; float: left; margin: 20px;}
+main .gallery ul li a {display: block;}
+main .gallery ul li img {width: 270px; height: 220px; z-index: 0;}
+main .gallery ul :first-child {margin-left: 0px;}
+main .gallery ul :last-child {margin-right: 0px;}
+
+main .underline {width: 900px; height: 10px; border-top: solid 5px #8a15af; margin-top: 15px;}
+
+main .contact {width: 1100px; min-height: 650px; margin-top: 50px; margin-left: 100px;}
+main .purple {width: 900px; min-height: 500px; background-color: #8a15af; float: left; position: relative;}
+main .purple h2 {color: white; font-size: 40px; margin-left: 20px; margin-top: 15px;}
+#googleMap {width: 900px; min-height: 500px; float: right; position: absolute; margin-left: 80px; margin-top: 80px;}
+main .registration {width: 500px; height: 500px; position: absolute; background-color: lightgrey; margin-left: 480px; margin-top: 80px;}
+input {width: 200px; height: 35px; margin-left: 20px; margin-top: 40px;}
+input:last-child {width: 80px; height: 50px; font-size: 20px; background-color: #8a15af; color: white; margin-top: 10px; margin-left: 370px;}
+input:nth-child(4) label {color: white;}
+textarea {width: 200px; height: 150px; margin-left: 20px; margin-top: 20px; resize: none;}
+
+#footer_wrapper {width: 100%; height: 80px; background-color: #8a15af; }
+footer {width: 1170px; height: 80px; color: white;}
+footer h3 {line-height: 80px; float: left;}
+footer h4 {line-height: 80px; float: right; font-size: 18px;}
